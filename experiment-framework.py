@@ -12,14 +12,12 @@ def main():
 
     datasets = listDataSets('/datasets/')
 
-    paths = []
-    for ds in datasets:
-        paths+= [os.getcwd()+'/datasets/'+ds+'/out.'+ds]
-
     graphs = []
 
-    for path in paths:
-        graphs += [loadGraph(path)]
+    for ds in datasets:
+        graphs += [loadGraph(os.getcwd()+'/datasets/'+ds+'/out.'+ds)]
+
+    print graphs
 
     results = {}
 
@@ -44,7 +42,7 @@ def loadGraph(filename):
 
         for c in fileReader:
             G.add_edge(c[0],c[1]);
-            
+
     return G
 
 def listDataSets(directory):
