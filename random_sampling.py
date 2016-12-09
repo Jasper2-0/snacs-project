@@ -65,8 +65,8 @@ def randomSamplingExperiment(Graph, numberOfExperiments, k):
     MAE_est = AE_est / float(len(G.nodes())*exps)
         
     results = {}
-    results['MAE (per experiment)'] = str(MAE_exp) # accuracy (E[d] = d)
-    results['MAE (for all estimates)'] = str(MAE_est) # precision
+    results['MAE (per experiment)'] = MAE_exp # accuracy (E[d] = d)
+    results['MAE (for all estimates)'] = MAE_est # precision
     
     return results
         
