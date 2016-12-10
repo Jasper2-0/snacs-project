@@ -4,6 +4,9 @@ import csv
 import networkx as nx
 import cPickle as pickle
 
+#from graph_tool.all import *
+
+
 def loadGraph(filename):
     G = nx.Graph()
 
@@ -14,7 +17,23 @@ def loadGraph(filename):
         fileReader.next()
 
         for c in fileReader:
+            #G.add_edge(c[0],c[1])
             G.add_edge(int(c[0])-1,int(c[1])-1); # nodes need to be ints, starting at 0 (NOTE: this is very bad practice)
+
+    return G
+
+def loadGraphGT(filename):
+    
+    G = Graph()
+    
+    with open(filename,'r') as edgeFile:
+        fileReader = csv.reader(edgeFile, delimiter=' ', quotechar='|')
+        
+        fileReader.next() # skip header
+        fileReader.next()
+        
+        for c in fileReader:
+            G.add_edge(int(c[0])-1,int(c[1])-1);
 
     return G
 
