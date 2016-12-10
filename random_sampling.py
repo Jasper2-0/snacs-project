@@ -14,10 +14,10 @@ import numpy as np
 
 
 def randomSamplingExperiment(Graph, numberOfExperiments, k):
-    # Calculate actual average distance for all nodes
-    
+
     G = Graph
     
+    # Calculate actual average distance for all nodes
     avg_dists = np.zeros(len(G.nodes()))
     i = 0
     for v in G.nodes():
@@ -55,7 +55,7 @@ def randomSamplingExperiment(Graph, numberOfExperiments, k):
     AE_est = 0.0
     for j in range(0,len(G.nodes())):
         avg = np.mean(experiments[:,j])
-        std = np.std(experiments[:,j])
+        #std = np.std(experiments[:,j])
         AE_exp += np.abs(avg_dists[j] - avg)
         for i in range(0,exps):
             est = experiments[i,j]

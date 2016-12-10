@@ -7,6 +7,7 @@ import numpy as np
 import cPickle as pickle
 
 from random_sampling import randomSamplingExperiment
+from pivot_selection import pivotSelectionExperiment
 
 def main():
 
@@ -23,7 +24,9 @@ def main():
 
     for i in range(len(graphs)):
 
-        experimentResults = randomSamplingExperiment(graphs[i],numberOfExperiments = 1000,k = 1)
+        #experimentResults = randomSamplingExperiment(graphs[i],numberOfExperiments = 1000,k = 1)
+        # selectionMethod = 'RanDeg', 'MaxMin', or 'MaxSum'
+        experimentResults = pivotSelectionExperiment(graphs[i],numberOfExperiments = 1000, k = 4, selectionMethod='MaxSum')
         
         results[datasets[i]] = experimentResults
 
@@ -41,7 +44,7 @@ def loadGraph(filename):
         fileReader.next()
 
         for c in fileReader:
-            G.add_edge(c[0],c[1]);
+            G.add_edge(int(c[0])-1,int(c[1])-1); # nodes need to be ints, starting at 0 (NOTE: this is very bad practice)
 
     return G
 
