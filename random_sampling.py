@@ -12,9 +12,9 @@ import numpy as np
 #G = nx.path_graph(10)
 #nx.draw_circular(G)
 
-
-def randomSamplingExperiment(Graph, numberOfExperiments, k):
-
+def RandomSampling(Graph, numberOfExperiments, k):
+    # Calculate actual average distance for all nodes
+    
     G = Graph
     
     # Calculate actual average distance for all nodes

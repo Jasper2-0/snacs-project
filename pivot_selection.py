@@ -77,7 +77,7 @@ def selectMaxSum(Graph, k):
     
 
 
-def pivotSelectionExperiment(Graph, numberOfExperiments, k, selectionMethod):
+def PivotSelection(Graph, numberOfExperiments, k, selectionMethod):
     G = Graph
     
     # Calculate actual average distance for all nodes
