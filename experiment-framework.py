@@ -84,14 +84,5 @@ def main(argv):
     dump(results,os.getcwd()+"/pickles/done/results-"+setupName+".pickle")
     #done!
 
-
-
-def listDataSets(directory):
-    x = [x[1] for x in os.walk(os.getcwd()+directory)]
-    return x[0]
-
-def dump(pickleVar, filename ):
-    pickle.dump( pickleVar , open(filename,'wb'))
-
 if __name__ == "__main__":
     main(sys.argv[1:])
