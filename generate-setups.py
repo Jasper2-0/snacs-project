@@ -1,3 +1,4 @@
+#!/usr/local/bin/python
 
 from utilities import *
 
@@ -13,7 +14,7 @@ def main():
 
     pivots = ['MaxMin','MaxSum','RanDeg']
 
-    experimentSize = 200
+    experimentSize = 20
 
     # load graphs
     for ds in datasets:
