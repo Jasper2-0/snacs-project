@@ -6,11 +6,9 @@ def main():
     
     datasets = listDataSets('/datasets/')
     setupPicklePath = "/pickles/randomsetups.pickle"
-    resultsPicklePath = "/pickles/randomresults.pickle"
 
     graphs = []
     setups = []
-    results = []
 
     pivots = ['MaxMin','MaxSum','RanDeg']
 
