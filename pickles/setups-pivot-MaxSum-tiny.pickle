@@ -4,7 +4,7 @@ S'k'
 I1
 sS'numberOfExperiments'
 p3
-I200
+I20
 sS'selectionMethod'
 p4
 S'MaxSum'
@@ -17,7 +17,7 @@ sa(dp8
 S'k'
 I2
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -26,7 +26,7 @@ sa(dp9
 S'k'
 I3
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -35,7 +35,7 @@ sa(dp10
 S'k'
 I4
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -44,7 +44,7 @@ sa(dp11
 S'k'
 I5
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -53,7 +53,7 @@ sa(dp12
 S'k'
 I6
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -62,7 +62,7 @@ sa(dp13
 S'k'
 I7
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -71,7 +71,7 @@ sa(dp14
 S'k'
 I8
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -80,7 +80,7 @@ sa(dp15
 S'k'
 I9
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -89,7 +89,7 @@ sa(dp16
 S'k'
 I10
 sg3
-I200
+I20
 sg4
 g5
 sg6

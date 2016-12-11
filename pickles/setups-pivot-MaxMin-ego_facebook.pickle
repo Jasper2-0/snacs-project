@@ -4,7 +4,7 @@ S'k'
 I1
 sS'numberOfExperiments'
 p3
-I200
+I20
 sS'selectionMethod'
 p4
 S'MaxMin'
@@ -17,7 +17,7 @@ sa(dp8
 S'k'
 I2
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -26,7 +26,7 @@ sa(dp9
 S'k'
 I3
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -35,7 +35,7 @@ sa(dp10
 S'k'
 I4
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -44,7 +44,7 @@ sa(dp11
 S'k'
 I5
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -53,7 +53,7 @@ sa(dp12
 S'k'
 I6
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -62,7 +62,7 @@ sa(dp13
 S'k'
 I7
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -71,7 +71,7 @@ sa(dp14
 S'k'
 I8
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -80,7 +80,7 @@ sa(dp15
 S'k'
 I9
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -89,7 +89,7 @@ sa(dp16
 S'k'
 I10
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -98,7 +98,7 @@ sa(dp17
 S'k'
 I11
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -107,7 +107,7 @@ sa(dp18
 S'k'
 I12
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -116,7 +116,7 @@ sa(dp19
 S'k'
 I13
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -125,7 +125,7 @@ sa(dp20
 S'k'
 I14
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -134,7 +134,7 @@ sa(dp21
 S'k'
 I15
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -143,7 +143,7 @@ sa(dp22
 S'k'
 I16
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -152,7 +152,7 @@ sa(dp23
 S'k'
 I17
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -161,7 +161,7 @@ sa(dp24
 S'k'
 I18
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -170,7 +170,7 @@ sa(dp25
 S'k'
 I19
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -179,7 +179,7 @@ sa(dp26
 S'k'
 I20
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -188,7 +188,7 @@ sa(dp27
 S'k'
 I21
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -197,7 +197,7 @@ sa(dp28
 S'k'
 I22
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -206,7 +206,7 @@ sa(dp29
 S'k'
 I23
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -215,7 +215,7 @@ sa(dp30
 S'k'
 I24
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -224,7 +224,7 @@ sa(dp31
 S'k'
 I25
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -233,7 +233,7 @@ sa(dp32
 S'k'
 I26
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -242,7 +242,7 @@ sa(dp33
 S'k'
 I27
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -251,7 +251,7 @@ sa(dp34
 S'k'
 I28
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -260,7 +260,7 @@ sa(dp35
 S'k'
 I29
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -269,7 +269,7 @@ sa(dp36
 S'k'
 I30
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -278,7 +278,7 @@ sa(dp37
 S'k'
 I31
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -287,7 +287,7 @@ sa(dp38
 S'k'
 I32
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -296,7 +296,7 @@ sa(dp39
 S'k'
 I33
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -305,7 +305,7 @@ sa(dp40
 S'k'
 I34
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -314,7 +314,7 @@ sa(dp41
 S'k'
 I35
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -323,7 +323,7 @@ sa(dp42
 S'k'
 I36
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -332,7 +332,7 @@ sa(dp43
 S'k'
 I37
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -341,7 +341,7 @@ sa(dp44
 S'k'
 I38
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -350,7 +350,7 @@ sa(dp45
 S'k'
 I39
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -359,7 +359,7 @@ sa(dp46
 S'k'
 I40
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -368,7 +368,7 @@ sa(dp47
 S'k'
 I41
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -377,7 +377,7 @@ sa(dp48
 S'k'
 I42
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -386,7 +386,7 @@ sa(dp49
 S'k'
 I43
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -395,7 +395,7 @@ sa(dp50
 S'k'
 I44
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -404,7 +404,7 @@ sa(dp51
 S'k'
 I45
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -413,7 +413,7 @@ sa(dp52
 S'k'
 I46
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -422,7 +422,7 @@ sa(dp53
 S'k'
 I47
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -431,7 +431,7 @@ sa(dp54
 S'k'
 I48
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -440,7 +440,7 @@ sa(dp55
 S'k'
 I49
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -449,7 +449,7 @@ sa(dp56
 S'k'
 I50
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -458,7 +458,7 @@ sa(dp57
 S'k'
 I51
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -467,7 +467,7 @@ sa(dp58
 S'k'
 I52
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -476,7 +476,7 @@ sa(dp59
 S'k'
 I53
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -485,7 +485,7 @@ sa(dp60
 S'k'
 I54
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -494,7 +494,7 @@ sa(dp61
 S'k'
 I55
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -503,7 +503,7 @@ sa(dp62
 S'k'
 I56
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -512,7 +512,7 @@ sa(dp63
 S'k'
 I57
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -521,7 +521,7 @@ sa(dp64
 S'k'
 I58
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -530,7 +530,7 @@ sa(dp65
 S'k'
 I59
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -539,7 +539,7 @@ sa(dp66
 S'k'
 I60
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -548,7 +548,7 @@ sa(dp67
 S'k'
 I61
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -557,7 +557,7 @@ sa(dp68
 S'k'
 I62
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -566,7 +566,7 @@ sa(dp69
 S'k'
 I63
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -575,7 +575,7 @@ sa(dp70
 S'k'
 I64
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -584,7 +584,7 @@ sa(dp71
 S'k'
 I65
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -593,7 +593,7 @@ sa(dp72
 S'k'
 I66
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -602,7 +602,7 @@ sa(dp73
 S'k'
 I67
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -611,7 +611,7 @@ sa(dp74
 S'k'
 I68
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -620,7 +620,7 @@ sa(dp75
 S'k'
 I69
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -629,7 +629,7 @@ sa(dp76
 S'k'
 I70
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -638,7 +638,7 @@ sa(dp77
 S'k'
 I71
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -647,7 +647,7 @@ sa(dp78
 S'k'
 I72
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -656,7 +656,7 @@ sa(dp79
 S'k'
 I73
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -665,7 +665,7 @@ sa(dp80
 S'k'
 I74
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -674,7 +674,7 @@ sa(dp81
 S'k'
 I75
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -683,7 +683,7 @@ sa(dp82
 S'k'
 I76
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -692,7 +692,7 @@ sa(dp83
 S'k'
 I77
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -701,7 +701,7 @@ sa(dp84
 S'k'
 I78
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -710,7 +710,7 @@ sa(dp85
 S'k'
 I79
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -719,7 +719,7 @@ sa(dp86
 S'k'
 I80
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -728,7 +728,7 @@ sa(dp87
 S'k'
 I81
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -737,7 +737,7 @@ sa(dp88
 S'k'
 I82
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -746,7 +746,7 @@ sa(dp89
 S'k'
 I83
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -755,7 +755,7 @@ sa(dp90
 S'k'
 I84
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -764,7 +764,7 @@ sa(dp91
 S'k'
 I85
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -773,7 +773,7 @@ sa(dp92
 S'k'
 I86
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -782,7 +782,7 @@ sa(dp93
 S'k'
 I87
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -791,7 +791,7 @@ sa(dp94
 S'k'
 I88
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -800,7 +800,7 @@ sa(dp95
 S'k'
 I89
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -809,7 +809,7 @@ sa(dp96
 S'k'
 I90
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -818,7 +818,7 @@ sa(dp97
 S'k'
 I91
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -827,7 +827,7 @@ sa(dp98
 S'k'
 I92
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -836,7 +836,7 @@ sa(dp99
 S'k'
 I93
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -845,7 +845,7 @@ sa(dp100
 S'k'
 I94
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -854,7 +854,7 @@ sa(dp101
 S'k'
 I95
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -863,7 +863,7 @@ sa(dp102
 S'k'
 I96
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -872,7 +872,7 @@ sa(dp103
 S'k'
 I97
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -881,7 +881,7 @@ sa(dp104
 S'k'
 I98
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -890,7 +890,7 @@ sa(dp105
 S'k'
 I99
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -899,7 +899,7 @@ sa(dp106
 S'k'
 I100
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -908,7 +908,7 @@ sa(dp107
 S'k'
 I100
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -917,7 +917,7 @@ sa(dp108
 S'k'
 I200
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -926,7 +926,7 @@ sa(dp109
 S'k'
 I300
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -935,7 +935,7 @@ sa(dp110
 S'k'
 I400
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -944,7 +944,7 @@ sa(dp111
 S'k'
 I500
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -953,7 +953,7 @@ sa(dp112
 S'k'
 I600
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -962,7 +962,7 @@ sa(dp113
 S'k'
 I700
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -971,7 +971,7 @@ sa(dp114
 S'k'
 I800
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -980,7 +980,7 @@ sa(dp115
 S'k'
 I900
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -989,7 +989,7 @@ sa(dp116
 S'k'
 I1000
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -998,7 +998,7 @@ sa(dp117
 S'k'
 I1100
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -1007,7 +1007,7 @@ sa(dp118
 S'k'
 I1200
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -1016,7 +1016,7 @@ sa(dp119
 S'k'
 I1300
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -1025,7 +1025,7 @@ sa(dp120
 S'k'
 I1400
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -1034,7 +1034,7 @@ sa(dp121
 S'k'
 I1500
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -1043,7 +1043,7 @@ sa(dp122
 S'k'
 I1600
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -1052,7 +1052,7 @@ sa(dp123
 S'k'
 I1700
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -1061,7 +1061,7 @@ sa(dp124
 S'k'
 I1800
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -1070,7 +1070,7 @@ sa(dp125
 S'k'
 I1900
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -1079,7 +1079,7 @@ sa(dp126
 S'k'
 I2000
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -1088,7 +1088,7 @@ sa(dp127
 S'k'
 I2100
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -1097,7 +1097,7 @@ sa(dp128
 S'k'
 I2200
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -1106,7 +1106,7 @@ sa(dp129
 S'k'
 I2300
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -1115,7 +1115,7 @@ sa(dp130
 S'k'
 I2400
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -1124,7 +1124,7 @@ sa(dp131
 S'k'
 I2500
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -1133,7 +1133,7 @@ sa(dp132
 S'k'
 I2600
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -1142,7 +1142,7 @@ sa(dp133
 S'k'
 I2700
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -1151,7 +1151,7 @@ sa(dp134
 S'k'
 I2800
 sg3
-I200
+I20
 sg4
 g5
 sg6
@@ -1160,7 +1160,7 @@ sa(dp135
 S'k'
 I2888
 sg3
-I200
+I20
 sg4
 g5
 sg6
