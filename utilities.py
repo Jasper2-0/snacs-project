@@ -17,7 +17,6 @@ def loadGraph(filename):
         fileReader.next()
 
         for c in fileReader:
-            #G.add_edge(c[0],c[1])
             G.add_edge(int(c[0])-1,int(c[1])-1); # nodes need to be ints, starting at 0 (NOTE: this is very bad practice)
 
     return G

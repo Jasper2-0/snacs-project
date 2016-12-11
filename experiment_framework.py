@@ -62,6 +62,9 @@ def runExperiment(setupName):
 
     i = 1;    
 
+    print "n: "+str(len(graph.nodes()))
+    print "lcc n:"+str(len(largest.nodes()))
+
     inprogressFnSetups = os.getcwd()+"/pickles/inprogress/setups-"+setupName+".pickle"
     inprogressFnResults = os.getcwd()+"/pickles/inprogress/results-"+setupName+".pickle"
 
