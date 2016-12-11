@@ -16,8 +16,7 @@ from pivot_selection import PivotSelection
 def main(argv):
 
     setupName = ""
-    setups = []
-    results = []
+
 
     try:
         opts, args = getopt.getopt(sys.argv[1:],"s:",["setup"])
@@ -27,6 +26,12 @@ def main(argv):
         if opt in ("-s","--setup"):
             setupName = arg;    
 
+    runExperiment(setupName)
+
+
+def runExperiment(setupName):
+    setups = []
+    results = []
     #setup paths
     setupPicklePath = "/pickles/setups-"+setupName+".pickle"
 
@@ -83,6 +88,6 @@ def main(argv):
     os.remove(inprogressFnResults)
     dump(results,os.getcwd()+"/pickles/done/results-"+setupName+".pickle")
     #done!
-
+    
 if __name__ == "__main__":
     main(sys.argv[1:])
