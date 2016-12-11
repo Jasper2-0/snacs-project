@@ -56,6 +56,9 @@ def runExperiment(setupName):
     if setupName.split("-")[0] == "pivot":
         graph = loadGraph(os.getcwd()+'/datasets/'+setupName.split("-")[2]+'/out.'+setupName.split("-")[2])
 
+    # we're only interested in the largest component
+    largest = max(nx.connected_component_subgraphs(graph), key=len)
+
     i = 1;    
 
     inprogressFnSetups = os.getcwd()+"/pickles/inprogress/setups-"+setupName+".pickle"
@@ -68,9 +71,9 @@ def runExperiment(setupName):
         
         print "running "+str(s['numberOfExperiments'])+" experiment(s): "+setupName.split("-")[0]+" "+str(i)+" of "+str(nSetups) + " with k="+str(s['k'])
         if setupName.split("-")[0] == "randomsampling":
-            experimentResults = RandomSampling(graph,s['numberOfExperiments'],s['k'])
+            experimentResults = RandomSampling(largest,s['numberOfExperiments'],s['k'])
         if setupName.split("-")[0] == "pivot":
-            experimentResults = PivotSelection(graph,s['numberOfExperiments'],s['k'],setupName.split("-")[1]);
+            experimentResults = PivotSelection(largest,s['numberOfExperiments'],s['k'],setupName.split("-")[1]);
 
         r = {}
         r['dataset'] = s['dataset'];
