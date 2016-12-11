@@ -58,6 +58,7 @@ def runExperiment(setupName):
 
     # we're only interested in the largest component
     largest = max(nx.connected_component_subgraphs(graph), key=len)
+    largest = nx.convert_node_labels_to_integers(largest)
 
     i = 1;    
 
