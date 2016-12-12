@@ -33,7 +33,7 @@ def runExperiment(setupName):
     setups = []
     results = []
     #setup paths
-    setupPicklePath = "/pickles/setups-"+setupName+".pickle"
+    setupPicklePath = "/pickles/setups/setups-"+setupName+".pickle"
 
     # load or resume experiments
     if os.path.isfile(os.getcwd()+"/pickles/inprogress/setups-"+setupName+".pickle"):
