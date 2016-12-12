@@ -12,6 +12,7 @@ import cPickle as pickle
 
 from random_sampling import RandomSampling
 from pivot_selection import PivotSelection
+from top_k import topkExperiment
 
 def main(argv):
 
@@ -46,12 +47,12 @@ def runExperiment(setupName):
     if os.path.isfile(os.getcwd()+"/pickles/inprogress/results-"+setupName+".pickle"):
         print "loaded results from pickle"
         results = load("/pickles/inprogress/results-"+setupName+".pickle")
-        
-    
+
+
     nSetups = len(setups)
 
     # a bit hackish, but it works.
-    if setupName.split("-")[0] == "randomsampling":
+    if setupName.split("-")[0] == "randomsampling" or setupName.split("-")[0] == "topk":
         graph = loadGraph(os.getcwd()+'/datasets/'+setupName.split("-")[1]+'/out.'+setupName.split("-")[1])
     if setupName.split("-")[0] == "pivot":
         graph = loadGraph(os.getcwd()+'/datasets/'+setupName.split("-")[2]+'/out.'+setupName.split("-")[2])
@@ -60,7 +61,7 @@ def runExperiment(setupName):
     largest = max(nx.connected_component_subgraphs(graph), key=len)
     largest = nx.convert_node_labels_to_integers(largest)
 
-    i = 1;    
+    i = 1;
 
     print "n: "+str(len(graph.nodes()))
     print "lcc n:"+str(len(largest.nodes()))
@@ -73,11 +74,15 @@ def runExperiment(setupName):
         s = setups.pop(0)
         experimentResults = {}
         
+        print s
+        
         print "running "+str(s['numberOfExperiments'])+" experiment(s): "+setupName.split("-")[0]+" "+str(i)+" of "+str(nSetups) + " with k="+str(s['k'])
         if setupName.split("-")[0] == "randomsampling":
             experimentResults = RandomSampling(largest,s['numberOfExperiments'],s['k'])
         if setupName.split("-")[0] == "pivot":
             experimentResults = PivotSelection(largest,s['numberOfExperiments'],s['k'],setupName.split("-")[1]);
+        if setupName.split("-")[0] == "topk":
+            experimentResults = topkExperiment(largest,s['numberOfExperiments'],s['k'])
 
         r = {}
         r['dataset'] = s['dataset'];

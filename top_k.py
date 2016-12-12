@@ -109,6 +109,3 @@ def topkExperiment(Graph, numberOfExperiments, topk):
 #G = nx.gnp_random_graph(100,0.4)
 #G = nx.path_graph(10)
 #print topkExperiment(G, 20, 3)
-
-
-
