@@ -58,6 +58,7 @@ def selectMaxSum(Graph, k):
     # first sample random
     v0 = np.random.choice(G.nodes())
     sample[0] = v0
+    print "v0: " + str(v0)
     
     count = 1
     while(count < k):
@@ -66,15 +67,23 @@ def selectMaxSum(Graph, k):
         distances = distances.values()
         allDistances[count-1,:] = distances
         
+        # prevent selected pivots from being selected again
+        for i in range(0,count):
+            u = sample[i]
+            allDistances[:,u] = 0
+        
         # MaxSum (maximize sum of distances)
         sumDists = np.sum(allDistances,axis=0)
         v_new = np.argmax(sumDists)
         sample[count] = v_new
+        print "v"+ str(count) + ": " + str(v_new)
         
         count += 1
     
     return sample
     
+    
+selectMaxSum(nx.path_graph(6),6)
 
 
 def PivotSelection(Graph, numberOfExperiments, k, selectionMethod):
