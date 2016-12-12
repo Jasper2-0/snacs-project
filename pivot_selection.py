@@ -81,9 +81,6 @@ def selectMaxSum(Graph, k):
         count += 1
     
     return sample
-    
-    
-selectMaxSum(nx.path_graph(6),6)
 
 
 def PivotSelection(Graph, numberOfExperiments, k, selectionMethod):
