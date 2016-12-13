@@ -73,9 +73,7 @@ def runExperiment(setupName):
         s = {}
         s = setups.pop(0)
         experimentResults = {}
-        
-        print s
-        
+
         print "running "+str(s['numberOfExperiments'])+" experiment(s): "+setupName.split("-")[0]+" "+str(i)+" of "+str(nSetups) + " with k="+str(s['k'])
         if setupName.split("-")[0] == "randomsampling":
             experimentResults = RandomSampling(largest,s['numberOfExperiments'],s['k'])
