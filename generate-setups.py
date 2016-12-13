@@ -23,6 +23,7 @@ def main():
         dump(setups,os.getcwd()+"/pickles/setups/setups-randomsampling-"+datasets[i]+".pickle")
         
         for method in pivots:
+            
             setups = generateSetupsPivot(datasets[i],graphs[i],experimentSize,method)
             dump(setups,os.getcwd()+"/pickles/setups/setups-pivot-"+method+"-"+datasets[i]+".pickle")
 
@@ -70,7 +71,7 @@ def createtopkSamples(n):
 def generateSetupsRandomSampling(dataset, G,nExperiments):
 
     largest = max(nx.connected_component_subgraphs(G), key=len)
-    largest = nx.convert_node_labels_to_integers(G)
+    largest = nx.convert_node_labels_to_integers(largest)
 
     n = largest.number_of_nodes()
 
@@ -88,7 +89,7 @@ def generateSetupsRandomSampling(dataset, G,nExperiments):
 def generateSetupsPivot(dataset, G,nExperiments,selectionMethod):
 
     largest = max(nx.connected_component_subgraphs(G), key=len)
-    largest = nx.convert_node_labels_to_integers(G)
+    largest = nx.convert_node_labels_to_integers(largest)
 
     n = largest.number_of_nodes()
 
@@ -107,7 +108,7 @@ def generateSetupsPivot(dataset, G,nExperiments,selectionMethod):
 def generateSetupsTopK(dataset, G, nExperiments):
     
     largest = max(nx.connected_component_subgraphs(G), key=len)
-    largest = nx.convert_node_labels_to_integers(G)
+    largest = nx.convert_node_labels_to_integers(largest)
 
     n = largest.number_of_nodes()
 
@@ -121,7 +122,6 @@ def generateSetupsTopK(dataset, G, nExperiments):
         experiments += [exp]
 
     return experiments
-    
 
 if __name__ == "__main__":
     main()
