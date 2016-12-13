@@ -60,7 +60,37 @@ def plot(resultsName):
     plt.clf();
 
     
+def plotk(resultsName):
+    results = pickle.load(open(os.getcwd()+"/pickles/done/results-"+resultsName+".pickle", "rb"))
+
+    print results
+
+    k = []
     
+#    mae = []
+
+#    for r in results:
+#        k += [r['setup']['k']];
+#        mae += [r['results']['MAE (for all estimates)']]
+#    
+#    k = np.asarray(k)
+#    mae = np.array(mae)
+#    
+#    print k.max()
+#    print mae.max()
+#    
+#    plt.scatter(k,mae,linewidths=0.0)
+#    plt.grid()
+#    plt.ylim(ymin=-1.0)
+#    plt.ylim(ymax=5.0)
+#    plt.xlim(xmin=0.0)
+#    plt.xlim(xmax=6000)
+#    plt.ylabel("MAE (for all estimates )")
+#    plt.xlabel("k")
+#    plt.xscale('symlog')
+#    plt.title(resultsName)
+#    plt.savefig("diagrams/"+resultsName+".pdf")
+#    plt.clf();
 
 if __name__ == "__main__":
     main(sys.argv[1:])
