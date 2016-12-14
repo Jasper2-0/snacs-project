@@ -58,7 +58,7 @@ def selectMaxSum(Graph, k):
     # first sample random
     v0 = np.random.choice(G.nodes())
     sample[0] = v0
-    print "v0: " + str(v0)
+    #print "v0: " + str(v0)
     
     count = 1
     while(count < k):
@@ -76,7 +76,7 @@ def selectMaxSum(Graph, k):
         sumDists = np.sum(allDistances,axis=0)
         v_new = np.argmax(sumDists)
         sample[count] = v_new
-        print "v"+ str(count) + ": " + str(v_new)
+        #print "v"+ str(count) + ": " + str(v_new)
         
         count += 1
     
