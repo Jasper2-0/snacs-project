@@ -23,6 +23,6 @@ from plot import *
 #plot("pivot-RanDeg-moreno_propro")
 #plot("pivot-RanDeg-opsahl_powergrid")
 
-plotAnim("topk-dnc_corecipient")
+plotAnim("topk-moreno_propro")
 
 #plotk("topk-dnc_corecipient",50)

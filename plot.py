@@ -95,7 +95,7 @@ def plotk(resultsName, kIndex):
     plt.scatter(sampleSize,accs,linewidths=0.0,edgecolors=None)
     plt.grid()
     plt.ylim(ymin=0.0)
-    plt.ylim(ymax=900.0)
+    plt.ylim(ymax=1500.0)
     plt.xlim(xmin=0.0)
     plt.xlim(xmax=1100)
     plt.ylabel("Avg. Candidate Set Size")
