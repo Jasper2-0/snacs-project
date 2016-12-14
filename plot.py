@@ -50,7 +50,7 @@ def plot(resultsName):
     plt.scatter(k,mae,linewidths=0.0,edgecolors=None)
     plt.grid()
     plt.ylim(ymin=-1.0)
-    plt.ylim(ymax=6.0)
+    plt.ylim(ymax=8.0)
     plt.xlim(xmin=0.0)
     plt.xlim(xmax=6000)
     plt.ylabel("MAE (for all estimates )")
@@ -95,14 +95,15 @@ def plotk(resultsName, kIndex):
     plt.scatter(sampleSize,accs,linewidths=0.0,edgecolors=None)
     plt.grid()
     plt.ylim(ymin=0.0)
-    plt.ylim(ymax=1500.0)
+    plt.ylim(ymax=5000.0)
     plt.xlim(xmin=0.0)
     plt.xlim(xmax=1100)
     plt.ylabel("Avg. Candidate Set Size")
     plt.xlabel("Samples")
     #plt.xscale('symlog')
     plt.title(resultsName +" for k = "+str(k))
-    plt.savefig("diagrams/topk-pdfs/"+resultsName+"/"+resultsName+"_k"+str(k).zfill(4)+".pdf",bbox_inches='tight',dpi=150)
+#    plt.savefig("diagrams/topk-pdfs/"+resultsName+"/"+resultsName+"_k"+str(k).zfill(4)+".pdf",bbox_inches='tight',dpi=150)
+    plt.savefig("diagrams/anim/"+resultsName+"/"+resultsName+"_k"+str(k).zfill(4)+".png",bbox_inches='tight',dpi=150)
     plt.clf();
 
 if __name__ == "__main__":
