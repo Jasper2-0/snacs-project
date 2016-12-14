@@ -10,6 +10,7 @@ from plot import *
 #plot("pivot-MaxMin-ego_facebook")
 #plot("pivot-MaxMin-moreno_names")
 #plot("pivot-MaxMin-moreno_propro")
+#plot("pivot-MaxMin-opsahl_powergrid")
 #
 #plot("pivot-MaxSum-dnc_corecipient")
 #plot("pivot-MaxSum-ego_facebook")
@@ -22,7 +23,6 @@ from plot import *
 #plot("pivot-RanDeg-moreno_propro")
 #plot("pivot-RanDeg-opsahl_powergrid")
 
-plotk("topk-dnc_corecipient")
-#plotK("topk-ego_facebook")
-#plotK("topk-moreno_names")
-#plotK("topk-moreno_propro")
+plotAnim("topk-dnc_corecipient")
+
+#plotk("topk-dnc_corecipient",50)
